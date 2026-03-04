@@ -5,4 +5,4 @@ kind: Kustomization
 resources:
   - ./helmRepository.yaml
   - ./helmRelease.yaml
-  - ./ip-address-pool.yaml
+  # - ./ip-address-pool.yaml

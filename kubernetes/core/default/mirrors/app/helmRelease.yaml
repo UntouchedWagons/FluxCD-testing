@@ -14,3 +14,6 @@ spec:
         name: kts
         namespace: default
       interval: 5m
+      dependsOn:
+        name: cert-manager
+        namespace: cert-manager
