@@ -5,4 +5,4 @@ kind: Kustomization
 namespace: default
 resources:
   - ./namespace.yaml
-  - ./mirrors/kustomization.yaml
+  - ./mirrors/k2.yaml

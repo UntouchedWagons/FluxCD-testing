@@ -6,4 +6,4 @@ namespace: metallb-system
 
 resources:
   - ./namespace.yaml
-  - ./metallb-system/kustomization.yaml
+  - ./metallb-system/k2.yaml
