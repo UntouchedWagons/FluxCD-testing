@@ -20,8 +20,6 @@ kind: Kustomization
 metadata:
   name: mirrors-config
   namespace: flux-system
-resources:
-  - config.yaml
 spec:
   dependsOn:
     - name: cert-manager
