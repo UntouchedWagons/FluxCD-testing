@@ -1,0 +1,13 @@
+---
+apiVersion: mirrors.kts.studio/v1alpha2
+kind: SecretMirror
+metadata:
+  name: mirror-com-untouchedwagons-testing
+  namespace: cert-manager
+spec:
+  source:
+    name: com-untouchedwagons-testing
+  destination:
+    namespaces:
+      - default
+      - traefik
